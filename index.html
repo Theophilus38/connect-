@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>connect</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <header>
+        <h1>Connect</h1>
+    </header>
+
+    <main>
+        <div>
+            <label for="name">Name</label>
+            <br>
+            <br>
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <br>
+            <br>
+            <input type="text" name="email" id="email" placeholder="example@gmail.com">
+        </div>
+
+        <div>
+            <label for="age">Age</label>
+            <br>
+            <br>
+            <input type="text" name="number" id="number" placeholder="Age">
+        </div>
+
+        <p>How good is our Product?</p>
+
+        <div>
+            <input type="radio" name="rate" id="very_good">
+            <label for="very_good">Very good</label>
+        </div>
+
+        <div>
+            <input type="radio" name="rate" id="fair">
+            <label for="fair">Fair</label>
+        </div>
+
+        <div>
+            <input type="radio" name="rate" id="bad">
+            <label for="bad">Bad</label>
+        </div>
+
+        <p>Where did you see our product for the first time?</p>
+
+        <div>
+            <label for="location"></label>
+            <select id="location">
+                <div class="select_one">
+                    <option value="" disabled selected>(select one)</option>
+                </div>
+
+                <option value="school">school</option>
+                <option value="church">church</option>
+                <option value="on-the-street">on the street</option>
+            </select>
+        </div>
+
+
+        <p>Where should we improve on?(you can selet more than one)</p>
+        <div>
+            <input type="checkbox" name="consistency" id="consistency">
+            <label for="consistency">Consistency</label>
+        </div>
+
+        <div>
+            <input type="checkbox" name="packaging" id="packaging">
+            <label for="packaging">Packaging</label>
+        </div>
+
+        <div>
+            <input type="checkbox" name="customer-service" id="customer-service">
+            <label for="customer-service">Customer service</label>
+        </div>
+
+        <div>
+            <input type="checkbox" name="delivery-time" id="delivery-time">
+            <label for="delivery-time">Delivery time</label>
+        </div>
+
+        <p>Addtional comment</p>
+
+        <input type="text" placeholder="Write a comment..." width="200px" height="300px">
+        <br>
+        <button>Submit</button>
+
+    </main>
+</body>
+
+</html>
