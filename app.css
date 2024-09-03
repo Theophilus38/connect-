@@ -17,7 +17,7 @@ p {
 }
 
 select {
-    width: 200px;
+    width: 500px;
 }
 
 .select_one {
@@ -27,4 +27,14 @@ select {
 button {
     background-color:#0077b6; 
     color: white;
+    width: 510px;
+}
+
+.size input {
+    width: 500px;
+}
+
+.comment_size input{
+    width: 500px;
+    height:20px;
 }
